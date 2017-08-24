@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Manual html5</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/stylo2_0.css" media="all"/>
+        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <script type="text/javascript" src="javascript/script.js">
+        </script>
+	</head>
+	<body>
+        
+		<div id="inicio">
+			<h1 class="importante">otro header 1</h1><!--headers-->
+			<h2>otro header 2</h2>
+			<h3>otro header 3</h3>
+			<h4>otro header 4</h4>
+			<h5 >otro header 5</h5>
+			<h6>otro header 6</h6>
+			<p>esta pagina manual esta hecha por valdr Stiglitz</p>
+			<p class="mierdas">caca<b> caca caca</b>caca</p><!--negritas-->
+			<p id="peque"> popo<em> popo popo</em><i> popo</i></p><!--cursiva-->
+			<p> mierda <u>mierda mierda</u> mierda</p><!--subrayado-->
+			<p> zeta <del>zeta zeta</del> zeta</p><!--tachado-->
+			<p> superindice <sup>super super</sup> super</p><!--superindice-->
+			<p> subindice <sub> sub sub</sub> sup </p> <!--subindice-->
+			<p> mas informacion en <A href="http://www.w3schools.com">aqui</A></p>
+		</div>
+		<hr>
+		<div>
+			<h2>aqui hay una lista desordenada</h2>
+				<ul>
+					<li>uno</li>
+					<li>dos</li>
+					<li>tres</li>
+					<li>cuatro</li>
+				</ul>
+			<h2>aqui hay una lista ordenada</h2>
+				<ol>
+					<li>uno</li>
+					<li>dos</li>
+					<li>tres</li>
+					<li>cuatro</li>
+				</ol>
+			<h2>aqui hay una lista ordenada inversa</h2>
+				<ol reversed>
+					<li>uno</li>
+					<li>dos</li>
+					<li>tres</li>
+					<li>cuatro</li>
+				</ol>
+			<h2>aqui hay una lista ordenada que empieza en 4</h2>
+				<ol start=4>
+					<li>uno</li>
+					<li>dos</li>
+					<li>tres</li>
+					<li>cuatro</li>
+				</ol>	
+			<h2>aqui hay una lista ordenada con tipos</h2>
+				<ol type="I"><!--se puede agregar "i" para numeros romanos o "a" para minusculas-->
+					<li>uno</li>
+					<li>dos</li>
+					<li>tres</li>
+					<li>cuatro</li>
+				</ol>
+		</div>
+		<hr><!--estas son lineas separadoras baratas-->
+		<div>
+			<h2>Este espacio es de imagenes</h2>
+			<img src="pictures/imagen.jpg" align="center" height="200" width="auto"><!-- asi se pone una imagen de la carpeta del servidor-->
+			<p>yolanda desde carpeta</p>
+			<img src="http://scontent.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/13355620_1720326084923239_1435726106_n.jpg?ig_cache_key=MTI2MzY0MTAyNDgwNTkxMzE4OA%3D%3D.2"  align="center" height="200" width="auto"><!-- asi se pone dese pagina web-->
+			<p>yolanda desde internet</p>
+		</div>
+		<hr>
+		<div>
+			<h2>formularios</h2>
+			<form>
+			<p>usuario:<input type="text" placeholder="usuario"></p>
+			<p>contaseña:<input type="password" placeholder="contraseña"></p>
+				<p>hombre:<input type="radio" name="sexo" value="hombre"></p><!--estas etiquetas tienen que tener mismo atributo "name" para que solo se puede seleccionar una -->
+				<p>mujer:<input type="radio" name="sexo" values="mujer"></p>
+				<p>permanecer conectado: <input type="checkbox"></p>
+				<h3>este es una lista desplegable</h3>
+					<select>
+					<option selected></option>
+					<option>opcion 1</option>
+					<option>opcion 2</option>
+					<option>opcion 3</option>
+					</select>
+				<input type="submit" value="enviar">
+			</form>
+		</div>
+		<hr>
+		<div>
+			<h2>tablas</h2>
+				<table border="1">
+					<thead>
+						<tr><th>titulo head1</th><th>titulo head2</th><th>titulo head3</th></tr>
+					</thead>
+					<tr><td>valor 1</td><td>valor 2</td><td>sig columna</td></tr>
+					<tr><td>valor 3</td><td>valor 3</td><td>sig columna</td></tr>
+				</table>
+		</div>
+		<hr>
+		<div id="final">
+			<h2>links</h2>
+			<p><a href="http://www.hispachan.org" target="_blank">click aqui</a> para ir a un lugar especial</p>
+			<p>
+			<a href="http://www.hispachan.org">
+			<img src="pictures/2fotopanoramicafalha.jpg" width="150" height="auto">
+			</a>
+			</p>
+		</div>
+		<hr>
+		<div>
+			<h2>iframes para poner paginas web y videos embebidos</h2>
+				<iframe class="ventanas_web" src="http://www.facebook.com"></iframe>
+                <iframe class="ventanas_web" src="https://www.youtube.com/embed/gRJK3OnT-r8" frameborder="0" allowfullscreen autoplay></iframe>
+		</div>
+        <div>
+            <h2>Insertar videos desde carpeta</h2>
+            <video class="ventanas_web" src="video/jockel.webm"  controls><video>
+        </div>
+        </div>
+			<p>ir al <a href="#inicio">inicio</a></p><!--este link lleva a una parte de la pagina con id "#id" nombrado-->
+	</body>
+</html>

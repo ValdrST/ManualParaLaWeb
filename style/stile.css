@@ -1,0 +1,46 @@
+#uno
+{
+    background-color: darkgreen;
+}
+#dos
+{
+    background-color: darkred;/*color de fondo*/
+}
+#tres
+{
+    background-color: darkblue;
+}
+#cuatro
+{
+    background-color: green;
+}
+#cinco
+{
+    background-color: red;
+}
+#seis
+{
+    background-color: blue;
+}
+.cuadrado
+{
+    border: 10px;/*tamaño de los bordes en general*/
+    border-style: solid groove dotted  dashed;/*estilos de los bordes*/
+    border-width: 20px 10px 5px 2px;/*tamaño de los bordes en especifico seguir manecillas del reloj*/
+    border-radius: 100px;/*famosos bordes redondos*/
+    position: relative;
+    width: 100px;/*ancho de los elementos*/
+    height: 100px;/*alto de los elementos*/
+    margin: 10px;/*separacion de los elementos*/
+    float:left;
+}
+.cuadrado:hover /*hover es la pseudoclase de cuando pasas el raton encima*/
+{
+    border-color: gray;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    if('g'||'g')
+}
